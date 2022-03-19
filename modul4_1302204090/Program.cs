@@ -11,6 +11,7 @@ namespace modul4_1302204090
 		static void Main(string[] args)
 		{
 			
+			// Demo SimpleDataBase
 			SimpleDataBase<long> simpleDataBase = new SimpleDataBase<long>();
 
 			simpleDataBase.AddNewData(13);
@@ -19,6 +20,7 @@ namespace modul4_1302204090
 
 			simpleDataBase.PrintAllData();
 
+			// Demo Penjumlahan 3 angka
 			long x = 13;
 			long y = 02;
 			long z = 20;
