@@ -10,6 +10,15 @@ namespace modul4_1302204090
 	{
 		static void Main(string[] args)
 		{
+			
+			SimpleDataBase<long> simpleDataBase = new SimpleDataBase<long>();
+
+			simpleDataBase.AddNewData(13);
+			simpleDataBase.AddNewData(02);
+			simpleDataBase.AddNewData(20);
+
+			simpleDataBase.PrintAllData();
+
 			long x = 13;
 			long y = 02;
 			long z = 20;
