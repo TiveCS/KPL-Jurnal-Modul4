@@ -10,7 +10,14 @@ namespace modul4_1302204090
 	{
 		static void Main(string[] args)
 		{
+			long x = 13;
+			long y = 02;
+			long z = 20;
 
+			Penjumlahan<long> penjumlahan = new Penjumlahan<long>();
+			long result = penjumlahan.JumlahTigaAngka(x, y, z);
+
+			Console.WriteLine(result);
 		}
 	}
 }
